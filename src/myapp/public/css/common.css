@@ -1,2 +1,2 @@
-body{background-color:red;font-size:14px;padding:5px}
+@charset "UTF-8";a,body,button,dd,div,dl,dt,h1,h2,h3,h4,html,img,input,li,ol,p,select,span,textarea,ul{margin:0;padding:0;font-size:14px;box-sizing:border-box;font-family:Microsoft YaHei,Tahoma,Helvetica,Arial,宋体,sans-serif;color:#8a8a8a}body{background-image:url(/img/background-img.jpg)}.clearfix{zoom:1}.clearfix:after{content:"";display:block;height:0;clear:both;visibility:hidden}
 /*# sourceMappingURL=common.css.map */

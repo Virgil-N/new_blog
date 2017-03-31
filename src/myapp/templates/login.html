@@ -1,0 +1,30 @@
+{{define "login"}}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="/css/common.css">
+	<link rel="stylesheet" type="text/css" href="/css/login.css">
+	<script type="text/javascript" src="/vendor/jquery/jquery-1.11.1.js"></script>
+</head>
+<body>
+	<div id="login-block">
+		<form>
+			<div class="floor">
+				<label>用户名:</label>
+				<input type="text" name="username">
+			</div>
+			<div class="floor">
+				<label>密码:</label>
+				<input type="password" name="password">
+			</div>
+			<div class="login-opt">
+				<button type="button" id="submit">登录</button>
+			</div>
+		</form>
+	</div>
+	{{template "footer"}}
+	<script type="text/javascript" src="/js/tt.js"></script>
+</body>
+</html>
+{{end}}

@@ -1,1 +1,1 @@
-{"version":3,"sources":["common.js"],"names":["alert"],"mappings":"CAAA,WACCA,MAAM","file":"common.js","sourcesContent":["(function() {\r\n\talert(\"ssd\");\r\n})()"]}
+{"version":3,"sources":["common.js"],"names":["alert"],"mappings":"AAAA,cAEA,WACCA,MAAM","file":"common.js","sourcesContent":["\"use strict\";\n\n(function () {\n\talert(\"ssd\");\n})();"]}

@@ -1,0 +1,1 @@
+{"version":3,"sources":["tt.js"],"names":["_login","require","console","log","ss"],"mappings":"AAAA,YAEA,IAAIA,QAASC,QAAQ,UAErBC,SAAQC,IAAIH,OAAOI","file":"tt.js","sourcesContent":["\"use strict\";\n\nvar _login = require(\"./login\");\n\nconsole.log(_login.ss);"]}

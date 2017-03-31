@@ -1,0 +1,37 @@
+#login-block {
+	width: 430px;
+  height: 220px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 15px 5px rgb(181,177,177);
+}
+
+.floor {
+	margin: 20px 50px;
+}
+
+.floor:first-child {
+	padding-top: 30px;
+}
+
+.floor > label {
+	display: inline-block;
+	width: 88px;
+	text-align: right;
+}
+
+.floor > label, .floor > input[type="text"] {
+	height: 24px;
+	line-height: 24px;
+}
+
+.login-opt > button {
+	margin-left: 142px;
+  width: 80px;
+  height: 30px;
+}

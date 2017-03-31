@@ -1,5 +1,24 @@
-body {
-	background-color: red;
+html, body, h1, h2, h3, h4, a, span, div, p, img, input, select, button, textarea, ul, li, ol, dl, dt, dd {
+	margin: 0;
+	padding: 0;
 	font-size: 14px;
-	padding: 5px;
+	box-sizing: border-box;
+	font-family: "Microsoft YaHei", Tahoma, Helvetica, Arial, '宋体', sans-serif;
+	color: rgb(138,138,138);
+}
+
+body {
+	background-image: url("/img/background-img.jpg");
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
 }
