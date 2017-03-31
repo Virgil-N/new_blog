@@ -1,2 +1,2 @@
-"use strict";!function(){alert("ssd")}();
+!function(){alert("ssd")}();
 //# sourceMappingURL=common.js.map

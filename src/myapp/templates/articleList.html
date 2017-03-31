@@ -1,0 +1,83 @@
+{{define "articleList"}}
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="/css/common.css">
+	<link rel="stylesheet" type="text/css" href="/css/articleList.css">
+	<script type="text/javascript" src="/vendor/jquery/jquery-1.11.1.js"></script>
+</head>
+<body>
+	<div id="article-list-wrap">
+		<div id="header">{{template "header"}}</div>
+		<div id="main" class="clearfix">
+			<div id="info">{{template "info"}}</div>
+			<div id="content">
+				<h3>文章列表</h3>
+				<table id="articles" cellspacing="0">
+					<thead>
+						<tr>
+							<th>标题</th>
+							<th>发布日期</th>
+							<th>阅读</th>
+							<th>评论</th>
+							<th>评论权限</th>
+							<th>操作</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="title">
+								<a href="">鲁滨逊漂流记</a>
+							</td>
+							<td class="create-date">2017-03-31 22:33:12</td>
+							<td class="read">100</td>
+							<td class="comment">39</td>
+							<td class="right">
+								<a href="">禁止评论</a>
+							</td>
+							<td class="opt">
+								<a href="">编辑</a>
+								<a href="">删除</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="title">
+								<a href="">鲁滨逊漂流记</a>
+							</td>
+							<td class="create-date">2017-03-31 22:33:12</td>
+							<td class="read">100</td>
+							<td class="comment">39</td>
+							<td class="right">
+								<a href="">禁止评论</a>
+							</td>
+							<td class="opt">
+								<a href="">编辑</a>
+								<a href="">删除</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="title">
+								<a href="">鲁滨逊漂流记</a>
+							</td>
+							<td class="create-date">2017-03-31 22:33:12</td>
+							<td class="read">100</td>
+							<td class="comment">39</td>
+							<td class="right">
+								<a href="">禁止评论</a>
+							</td>
+							<td class="opt">
+								<a href="">编辑</a>
+								<a href="">删除</a>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+		</div>
+		<div id="footer">{{template "footer"}}</div>
+	</div>
+	
+</body>
+</html>
+{{end}}

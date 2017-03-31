@@ -1,0 +1,60 @@
+#article-list-wrap {
+  #main {
+    width: 1280px;
+    margin: 30px auto auto auto;
+  }
+  #info{
+    float: left;
+  }
+  #content {
+  	float: right;
+		width: 960px;
+		padding: 20px;
+		border: 1px solid rgb(200, 200, 200);
+		background-color: rgb(255, 255, 255);
+		> h3 {
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+		#articles {
+			width: 100%;
+			thead th:first-child {
+				padding-left: 20px;
+			}
+			thead th {
+				text-align: left;
+			}
+			tbody {
+				a {
+					text-decoration: none;
+				}
+				a:hover {
+					color: rgb(0, 0, 0);
+				}
+				tr:nth-child(odd) {
+					background-color: rgb(235, 235, 235);
+				}
+				tr:hover {
+					background-color: rgb(249,250,209);
+				}
+				td {
+					padding: 10px 0;
+					min-width: 100px;
+				}
+				.title {
+					padding-left: 20px;
+					width: 500px;
+				}
+				.create-date {
+					width: 260px;
+				}
+				.right {
+					width: 100px;
+				}
+				.opt {
+					width: 100px;
+				}
+			}
+		}
+  }
+}

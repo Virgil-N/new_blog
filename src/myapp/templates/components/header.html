@@ -1,0 +1,19 @@
+{{define "header"}}
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/css/header.css">
+</head>
+<body>
+	<nav id="header-wrap" class="clearfix">
+		<a href="">目录</a>
+		{{if .IsAuthor}}
+		<a href="">写博客</a>
+		<a href="" id="logout">退出</a>
+		{{else}}
+		<a href="" id="login">登录</a>
+		{{end}}
+	</nav>
+</body>
+</html>
+{{end}}

@@ -3,6 +3,7 @@ package main
 import (
 	"github.com/gorilla/mux"
 	"log"
+	"myapp/controller/action"
 	"myapp/controller/page"
 	"net/http"
 )
@@ -17,6 +18,7 @@ func main() {
 	r.HandleFunc("/", page.ShowArticleList)
 	r.HandleFunc("/index", page.ShowArticleList)
 	r.HandleFunc("/login", page.ShowLogin)
+	r.HandleFunc("/doLogin", action.Login)
 
 	http.Handle("/", r)
 

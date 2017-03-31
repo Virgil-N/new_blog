@@ -1,0 +1,37 @@
+{{define "info"}}
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/css/info.css">
+</head>
+<body>
+	<div id="info-wrap">
+		<div id="avator">
+			<img src="{{.Avator}}">
+		</div>
+		<p>
+			<span>姓名:</span>
+			<span><a href="/profiles" id="name">{{.Name}}</a></span>
+		</p>
+		<p>
+			<span>性别:</span>
+			<span>{{.Gender}}</span>
+		</p>
+		<p>
+			<span>年龄:</span>
+			<span>{{.Age}}</span>
+		</p>
+		<p>
+			<span>注册时间:</span>
+			<span>{{.RegisterDate}}</span>
+		</p>
+		<p>
+			<span>爱好:</span>
+			{{range .Favourite}}
+				<span>{{.}}</span>
+			{{end}}
+		</p>
+	</div>
+</body>
+</html>
+{{end}}
